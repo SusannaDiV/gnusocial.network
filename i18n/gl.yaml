@@ -1,0 +1,135 @@
+- id: title
+  translation: "Rede social libre, plataforma de comunicación para persoas"
+- id: description
+  translation: "GNU social conéctate a unha rede libre de miles de comunidades que conversan a diario sobre calquera tema que poidas imaxinar, cada unha formando parte do conxunto."
+- id: install-button
+  translation: "Instalar"
+- id: join-button  
+  translation: "Ven con nós!"
+- id: versatile  
+  translation: "Versátil"
+- id: versatile-description 
+  translation: "GNU social da servizo tanto a un usuario como a comunidades enteiras que interactúan nunha rede local ou como parte da gran Rede Libre."
+- id: plug-and-play
+  translation: "Plug and Play"
+- id: plug-and-play-description
+  translation: "Como GNU social é libre e de pequeno tamaño, funcionará case en calquera lugar onde funcionen ferramentas tipo WordPress ou Drupal. Ter JavaScript é optativo."
+- id: privacy-focused
+  translation: "Intimidade"
+- id: privacy-focused-description
+  translation: "GNU social é parte do proxecto GNU, é 100% software libre, sen características perniciosas nen software espía."
+- id: stable
+  translation: "Estable"
+- id: stable-description
+  translation: "GNU social leva máis de dez anos sendo utilizado en entornos de produción."
+- id: faq
+  translation: "Dúbidas?"
+- id: faq-where
+  translation: "Onde me podo unir a GNU social?"
+- id: faq-instances
+  translation: "Hai moitos tipos de instancias servidoras de GNU social activas neste momento!"
+- id: faq-join
+  translation: " para ver unha lista de servidores populares de GNU social aos que podes unirte!"
+- id: faq-disclaimer
+  translation: "Aviso: "
+- id: faq-disclaimer-content
+  translation: "Ten en conta que o equipo de desenvolvemento de GNU social non é responsable do xeito en que os sitios web que utilizan o software xestionan os seus contidos."
+- id: faq-who
+  translation: "Quen coida de GNU social?"
+- id: faq-current
+  translation: "O actual equipo de desenvolvemento está dirixido por "
+- id: faq-list
+  translation: "Está dispoñible unha lista coas persoas que contribúen ao código e colaboran no desenvolvemento do mesmo en esta ligazón "
+- id: faq-founders
+  translation: "Os fundadores do projeto do GNU social foron "
+- id: news
+  translation: "Noticias"
+- id: news-list
+  translation: " para veder la lista completa de noticias de GNU social!"
+- id: chat
+  translation: "Chat"
+- id: chat-discuss
+  translation: "Conversa sobre o proxecto no noso canal IRC "
+- id: chat-contribute
+  translation: "Contribúe ao código, informa de fallos e solicita novas características no "
+- id: chat-student
+  translation: "Se estás a estudar, tamén podes solicitar participar no "
+- id: click-here
+  translation: "Clica aqui"
+- id: on-irc
+  translation: " en irc.freenode.net"
+- id: repository
+  translation: "repositorio"
+- id: and
+  translation: "e"
+- id: here
+  translation: "aqui"  
+  
+- id: about-gnu
+  translation: "Sobre a GNU"
+- id: philosophy
+  translation: "Filosofia"
+- id: licenses
+  translation: "Licenzas"
+- id: education
+  translation: "Educación"
+- id: software
+  translation: "Software"
+- id: documentation
+  translation: "Documentación"
+- id: help-gnu
+  translation: "Axuda a GNU"
+- id: join-fsf
+  translation: "ÚNETE A FSF" 
+  
+- id: support
+  translation: "Axuda ao proxecto"
+- id: donate
+  translation: "Doar"
+- id: main-dev
+  translation: " ao desenvolvedor lider do proxecto, "
+- id: merchandising
+  translation: "Tenda"
+- id: t-shirt
+  translation: "Merca a túa camiseta de GNU social "
+- id: statusnet
+  translation: "GNU social é a continuación do proxecto StatusNet, un software de interacción social para comunicacións públicas e privadas. Conta cunha ampla comunidade de usuarios e institucións que o mantén e mellora, entre elas a Free Software Foundation."
+- id: newsletter
+  translation: "Subscríbete ao noso boletín mensual, o   "
+- id: mission
+  translation: "A nosa misión é preservar, protexer e promocionar a liberdade de utilizar, estudar, copiar, modificar e distribuír software para computadoras, e defender os dereitos dos usuarios do Software Libre."
+- id: mantained
+  translation: "Mantido"
+- id: by
+  translation: "por"
+- id: follow
+  translation: "Ségueme en GNU social:  "
+- id: license
+  translation: "licenza"
+- id: licensed-under
+  translation: "Este sitio web ten "
+- id: with
+  translation: "con"  
+  
+- id: gnu-news-list-description
+  translation: "Nuestra visión, noticias e ideas, y todo lo que se siente importante."
+  
+- id: previous
+  translation: "Anterior"
+- id: next
+  translation: "Próximo"
+- id: page
+  translation: "Página"
+- id: of
+  translation: "de"
+  
+- id: minutes
+  translation: "minutos"
+- id: related-content
+  translation: "Conteúdo relacionado"
+- id: published
+  translation: "Publicado"
+- id: using
+  translation: "usando"
+- id: words
+  translation: "palavras"

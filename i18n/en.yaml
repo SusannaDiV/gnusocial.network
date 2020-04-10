@@ -1,0 +1,136 @@
+- id: title
+  translation: "The free/libre software social networking platform"
+- id: description
+  translation: "GNU social connects you to a free network of thousands of communities that discuss daily on a variety of topics, each being part of the whole."
+- id: install-button
+  translation: "Install"
+- id: join-button  
+  translation: "Join us"
+- id: versatile  
+  translation: "Versatile"
+- id: versatile-description 
+  translation: "GNU social supports both single-user and community modes and can be used in an intranet environment or as part of the wider Free Network."
+- id: plug-and-play
+  translation: "Plug and Play"
+- id: plug-and-play-description
+  translation: "Because GNU social is minimal and libre, it runs virtually anywhere you can run a common piece of web software, such as WordPress or Drupal. JavaScript is optional."
+- id: privacy-focused
+  translation: "Privacy Focused"
+- id: privacy-focused-description
+  translation: "GNU social is part of the GNU project, it's 100% free software, with no malicious features or spyware."
+- id: stable
+  translation: "Stable"
+- id: stable-description
+  translation: "GNU social has been used in production environments for over ten years."
+- id: faq
+  translation: "FAQ"
+- id: faq-where
+  translation: "Where can I join GNU social?"
+- id: faq-instances
+  translation: "There are many kinds of GNU social server instances online right now!"
+- id: faq-join
+  translation: " to see a list of popular GNU social sites you can join!"
+- id: faq-disclaimer
+  translation: "Disclaimer: "
+- id: faq-disclaimer-content
+  translation: "Please note that the GNU social development team is not responsible for the operation or content of sites that run its software."
+- id: faq-who
+  translation: "Who makes GNU social?"
+- id: faq-current
+  translation: "The current development team is lead by "
+- id: faq-list
+  translation: " A list containing the current devs and other contributors is available "
+- id: faq-founders
+  translation: "The founders of the GNU social project were "
+- id: news
+  translation: "News"
+- id: news-list
+  translation: " to see the complete list of GNU social's news!"
+- id: chat
+  translation: "Chat"
+- id: chat-discuss
+  translation: "Discuss the project on our IRC channel"
+- id: chat-contribute
+  translation: "Contribute code, report bugs and request features on our "
+- id: chat-student
+  translation: "If you are a student you can also apply to "
+- id: click-here
+  translation: "Click here"
+- id: on-irc
+  translation: " on irc.freenode.net"
+- id: repository
+  translation: "repository"
+- id: and
+  translation: "and"
+- id: here
+  translation: "here"
+  
+- id: about-gnu
+  translation: "About GNU"
+- id: philosophy
+  translation: "Philosophy"
+- id: licenses
+  translation: "Licenses"
+- id: education
+  translation: "Education"
+- id: software
+  translation: "Software"
+- id: documentation
+  translation: "Documentation"
+- id: help-gnu
+  translation: "Help GNU"
+- id: join-fsf
+  translation: "JOIN THE FSF"  
+    
+- id: support
+  translation: "Support the project"
+- id: donate
+  translation: "Donate"
+- id: main-dev
+  translation: " to the project lead developer,"
+- id: merchandising
+  translation: "Merchandising"
+- id: t-shirt
+  translation: "Buy your own GNU social t-shirt at "
+- id: statusnet
+  translation: "GNU social is a continuation of the StatusNet project. It is a social communication software for public and private communications. It is widely supported and has a large userbase including the Free Software Foundation."
+- id: newsletter
+  translation: "Subscribe to our monthly newsletter, the "
+- id: mission
+  translation: "Our mission is to preserve, protect and promote the freedom to use, study, copy, modify, and
+  redistribute computer software, and to defend the rights of Free Software users."
+- id: mantained
+  translation: "Maintained"
+- id: by
+  translation: "by"
+- id: follow
+  translation: "Follow me on GNU social: "
+- id: license
+  translation: "License"
+- id: licensed-under
+  translation: "This website is licensed under the "
+- id: with
+  translation: "with"  
+  
+- id: gnu-news-list-description
+  translation: "Our vision, news and ideas, and whatever feels important."
+  
+- id: previous
+  translation: "Previous"
+- id: next
+  translation: "Next"
+- id: page
+  translation: "Page"
+- id: of
+  translation: "of"
+  
+- id: minutes
+  translation: "minutes"
+- id: relevant-content
+  translation: "Related Content"
+- id: published
+  translation: "Published"
+- id: using
+  translation: "using"
+- id: words
+  translation: "words"
