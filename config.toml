@@ -1,0 +1,29 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "GNU social"
+description = "GNU social's new landing page - with news"
+author = "Susanna Di Vita"
+Paginate = 4
+
+DefaultContentLanguage = "en"
+[languages]
+	[languages.en]
+		title = "GNU social - the free/libre social networking platform"
+		languagename = "English"
+		contentDir = "content/en"
+		weight = 1
+	[languages.es]
+		title = "GNU social - una red social, federada y libre"
+		languagename = "Espanol"
+		contentDir = "content/es"
+		weight = 2
+	[languages.gl]
+		title = "GNU social - plataforma de comunicación social feita con software libre"
+		languagename = "Galego"
+		contentDir = "content/gl"
+		weight = 3
+	[languages.pt]
+		title = "GNU social - uma plataforma para a rede livre"
+		languagename = "Portugues"
+		contentDir = "content/pt"
+		weight = 4
