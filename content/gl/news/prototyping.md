@@ -6,26 +6,16 @@ date = "2020-03-02T21:56:55+01:00"
 tags = ["news","whatever"]
 categories = ["news"]
 description = "Always precise spacing and perfect font size"
-bref = "Typography is perhaps one of the most important and most visible things on a web page. Even slightest imperfection can ruin otherwise perfect website. With Kube, you will have perfect typography with ideal spacing, font sizes and proportions, regardless of the exact style or font you choose for your site."
+bref = "Typography is perhaps one of the most important and most visible things on a web page. Even slightest imperfection can ruin otherwise perfect website. You will have perfect typography with ideal spacing, font sizes and proportions, regardless of the exact style or font you choose for your site."
 +++
 
 <h3 class="section-head" id="h-get-started"><a href="#h-get-started">Get Started</a></h3>
-<p>Typography of Kube based on the 4px horizontal grid, it means that for the headers, paragraphs, quotes and any other texts chosen are a combination of line-height, that fit into the 4px grid and help set the horizontal rhythm of design by default.</p>
-<figure>
-  <img alt="4px horizontal rhythm" height="180" src="/img/kube/typography/01.png" width="676">
-  <figcaption>
-    4px grid for typography - the magic of the horizontal rhythm
-  </figcaption>
-</figure>
-<p>With this feature, you can quickly and easily make a solid and harmonious-looking website and UI design. You do not need to do complicated calculations to find the size and proportions of the text baseline, no need to look for the magic formula to build a horizontal rhythm. Magic is already in Kube.</p>
+<p>Typographybased on the 4px horizontal grid, it means that for the headers, paragraphs, quotes and any other texts chosen are a combination of line-height, that fit into the 4px grid and help set the horizontal rhythm of design by default.</p>
+
+<p>With this feature, you can quickly and easily make a solid and harmonious-looking website and UI design.</p>
 <p>You can use all the default settings of typography and it will always look balanced. But also you can easily change any font sizes, just try to set the value of line-height fold for 4px and your texts will still look great.</p>
-<p>Additional balance and harmony, creates a classic typography scale, used in Kube.</p>
-<figure>
-  <img alt="the typography scale" height="140" src="/img/kube/typography/02.png" width="520">
-  <figcaption>
-    The typography scale helps to build a balance between the size of headings and text elements
-  </figcaption>
-</figure>
+<p>Additional balance and harmony, creates a classic typography scale.</p>​
+
 <h3 class="section-head" id="h-headings"><a href="#h-headings">Headings</a></h3>
 <p>Use h1-h6 tags or <code>.h1-.h6</code> classes to define headers and <code>class="title"</code> for the title, which is suitable for the most important inscriptions, for example, in the hero or covers.</p>
 <div class="example">
@@ -70,7 +60,7 @@ bref = "Typography is perhaps one of the most important and most visible things 
   <pre class="code"><span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"smaller"</span>&gt;</span>...<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span></pre>
 </div>
 <h3 class="section-head" id="h-columns"><a href="#h-columns">Columns</a></h3>
-<p>Kube has three classes of <code>.columns-2</code> through <code>.columns-4</code> to create a multi-column layout. All multi-column layouts will be in a single column on mobile.</p>
+<p>ItIthas three classes of <code>.columns-2</code> through <code>.columns-4</code> to create a multi-column layout. All multi-column layouts will be in a single column on mobile.</p>
 <div class="example">
   <p class="section-item-desc">2 columns</p>
   <div class="columns-2">
@@ -146,7 +136,7 @@ bref = "Typography is perhaps one of the most important and most visible things 
   <pre class="code">&lt;pre&gt;<span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>...<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span></span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">pre</span>&gt;</span></span></pre>
 </div>
 <h3 class="section-head" id="h-inline-elements"><a href="#h-inline-elements">Inline Elements</a></h3>
-<p>Kube features various inline formatting elements. They all have their own semantic meaning, but you're free to use them just for their style.</p>
+ various inline formatting elements. They all have their own semantic meaning, but you're free to use them just for their style.</p>
 <table>
   <thead>
     <tr>
@@ -392,7 +382,7 @@ bref = "Typography is perhaps one of the most important and most visible things 
 </pre>
 </div>
 <h5>Definition List</h5>
-<p>From time to time, you may need to produce a list of definitions, and there's one nicely built-in into Kube. We love semantic things. And lists. We love lists.</p>
+<p>From time to time, you may need to produce a list of definitions, and there's one nicely built-in into here. We love semantic things. And lists. We love lists.</p>
 <div class="example">
   <dl>
     <dt>Term 1</dt>
