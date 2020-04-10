@@ -1,0 +1,20 @@
+<p>
+  {{ i18n "published" }}
+  {{ if ne .Site.Params.hide_author true }}
+    {{ with .Params.author }}
+      {{ i18n "by" }} <span itemprop="author">{{ index . }}</span>
+    {{ else }}
+      <span itemprop="author">{{ .Site.Params.author }}</span>
+    {{ end }}
+  {{ end }}
+  <time datetime="{{ dateFormat "2006-01-02T15:04:05-07:00" (default .Date (.PublishDate)) }}">
+    {{ dateFormat "2 Jan, 2006" (default .Date (.PublishDate)) }}
+  </time>
+  {{ with .Params.categories }}
+    in <span itemprop="articleSection">{{ delimit (apply (apply (sort .) "partial" "post/category-link" ".") "chomp" ".") ", " " and " }}</span>
+  {{ end }}
+  {{ with .Params.tags }}
+    {{ i18n "and" }} tagged {{ delimit (apply (apply (sort .) "partial" "post/tag-link" ".") "chomp" ".") ", " " and " }}
+  {{ end }}
+  {{ i18n "using" }} <span itemprop="wordCount">{{ .WordCount }}</span> {{ i18n "words" }}.
+</p>

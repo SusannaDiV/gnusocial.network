@@ -1,0 +1,19 @@
+{{ define "title"}} {{ .Title}} {{end}}
+{{ define "header"}} {{ partial "header" .}} {{end}}
+
+{{ define "main" }}
+
+<div id="hero" class="wrap">
+  <h1>{{ i18n "news" }}</h1>
+  <p>{{ i18n "gnu-news-list-description" }}<br> 
+</div>
+
+<ul id="posts">
+ {{ range .Paginator.Pages.ByDate }} {{ partial "page-summary" . }} {{ end }}
+ <section>{{ partial "pagination" .}}</section>
+</ul>
+
+{{ end }} 
+{{ define "footer" }} 
+  {{ partial "footer" . }} 
+{{ end }}

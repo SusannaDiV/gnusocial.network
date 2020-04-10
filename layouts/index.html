@@ -1,0 +1,83 @@
+{{ define "title"}} {{ .Site.Title}} {{end}}
+{{ define "header"}} {{ partial "header" .}} {{end}}
+{{ define "main"}}
+<div id="hero">
+  <h2>{{ i18n "title" }}</h2>
+	<p>{{ i18n "description" }}</p>
+</div>  
+<div id="action-buttons">
+  <a class="button primary big" href="https://notabug.org/diogo/gnu-social/src/nightly/INSTALL.md">{{ i18n "install-button" }}</a> 
+  <a class="button outline big" href="#join">{{ i18n "join-button" }}</a>
+</div>
+<div id="main">
+  <div class="row gutters text-center">
+    <div class="col col-3 item">
+      <figure>
+        <img alt="Versatile" height="48" src="{{ "/img/gnu/1.1.png" | relURL }}" width="48">
+      </figure>
+      <h3>{{ i18n "versatile" }}</h3>
+      <p>{{ i18n "versatile-description" }}</p>
+    </div>
+    <div class="col col-3 item">
+      <figure>
+        <img alt="Plug and Play" height="48" src="{{ "/img/gnu/3.1.png" | relURL }}" width="48">
+      </figure>
+      <h3>{{ i18n "plug-and-play" }}</h3>
+      <p>{{ i18n "plug-and-play-description" }}</p>
+    </div>
+    <div class="col col-3 item">
+      <figure>
+        <img alt="Privacy focused" height="48" src="{{ "/img/gnu/4.1.png" | relURL }}" width="48">
+      </figure>
+      <h3>{{ i18n "privacy-focused" }}</h3>
+      <p>{{ i18n "privacy-focused-description" }}</p>
+    </div>
+    <div class="col col-3 item">
+      <figure>
+        <img alt="Stable" height="48" src="{{ "/img/gnu/5.1.png" | relURL }}" width="48">
+      </figure>
+      <h3>{{ i18n "stable" }}</h3>
+      <p>{{ i18n "stable-description" }}</p>
+    </div>
+  </div>
+  <div class="row gutters text-center">
+    <div class="col col-6 item">
+      <h2>{{ i18n "faq" }}</h2>
+        <div class="paragraph" id="join">
+          <h3>{{ i18n "faq-where" }}</h3>
+          <p>{{ i18n "faq-instances" }}</p>
+          <p><a href="{{ .Params.url | absLangURL }}/docs/try">{{ i18n "click-here" }}</a>{{ i18n "faq-join" }}</p>
+          <strong>{{ i18n "faq-disclaimer" }}</strong><i>{{ i18n "faq-disclaimer-content" }}</i>
+        </div>
+        <br>
+        <div class="paragraph">
+          <h3>{{ i18n "faq-who" }}</h3>
+          <p>{{ i18n "faq-current" }}<a href="https://www.diogo.site/">Diogo Cordeiro</a>.</p> <p>{{ i18n "faq-list" }}
+            <a href="https://notabug.org/diogo/gnu-social/src/nightly/CREDITS.md">{{ i18n "here" }}</a>.</p>
+                {{ i18n "faq-founders" }}<a href="https://mat.tl/">Matt Lee</a>,
+                <a href="https://en.wikipedia.org/wiki/Evan_Prodromou">Evan Prodromou</a> {{ i18n "and" }}
+                <a href="http://mmn-o.se">Mikael Nordfeldth</a>.
+          </p>
+          <h2>{{ i18n "chat" }}</h2>
+          <p>{{ i18n "chat-discuss" }} <a
+              href="https://webchat.freenode.net/?channels=#social">#social</a>{{ i18n "on-irc" }}</p>
+          <p>{{ i18n "chat-contribute" }}<a
+              href="https://notabug.org/diogo/gnu-social">{{ i18n "repository" }}</a>.
+          </p>
+          <p>{{ i18n "chat-student" }}<a
+              href="https://www.diogo.site/projects/GNU-social/soc">GNU social's Summer of Code</a>.
+          </p> 
+        </div>
+      </div>
+      <div class="col col-5 item">
+        <h2>{{ i18n "news" }}</h2>
+        <p> <a href="{{ .Params.url  | absLangURL }}/news/">{{ i18n "click-here" }}</a>{{ i18n "news-list" }}
+	      <ul id="posts">
+	        {{ range first 4 .Paginator.Pages.ByDate.Reverse }} {{ partial "page-summary" . }} {{ end }}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}
+{{ define "footer"}} {{ partial "footer" .}} {{end}}
