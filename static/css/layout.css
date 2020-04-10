@@ -1,0 +1,277 @@
+/* Copyright (C) 2019 Free Software Foundation, Inc.
+
+Authors:
+* Gonçalo Oliveira <goncalo.oli@outlook.com>
+* Diogo Cordeiro <diogo@fc.up.pt>
+
+This file is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This file is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details. */
+
+*,
+::after,
+::before {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+::-moz-selection,
+::selection {
+    background: rgba(255, 255, 0, .3);
+    color: #000;
+}
+
+:after,
+:before {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: #f03c69;
+}
+
+a:hover {
+    -moz-transition: all linear 0.2s;
+    transition: all linear 0.2s;
+    color:#f03c60d7;
+    }
+
+header {
+    color: #3F3B3B;
+    text-align: left;
+}
+
+ol {
+	display: inline;
+}
+
+/*
+ * FSF header
+ */
+
+header nav {
+    background: #000;
+    border-bottom: 1px solid #000;
+    padding: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: .9em;
+    font-weight: 400;
+}
+
+header nav a {
+    color: #3F3D32;
+    padding: 0.625em;
+}
+
+header nav a:hover {
+    color: #3F3D32;
+    text-decoration: underline;
+}
+
+header nav.gnu-nav {
+    margin: 0;
+    background: #000000;
+}
+
+header nav.gnu-nav .gnu-logo {
+    padding: 0;
+}
+
+header nav.gnu-nav .gnu-logo img {
+    height: 2.125em;
+    vertical-align: bottom;
+}
+
+header nav.gnu-nav a {
+    color: #817F7F;
+    font-size: .9em;
+    padding: 0;
+}
+
+header nav.gnu-nav a:hover {
+    color: #525151;
+    text-decoration: none;
+}
+
+header nav.gnu-nav a:after {
+    content: '\30FB';
+    padding: 0 0.3125em;
+    color: #817F7F;
+    font-size: .9em;
+}
+
+header nav.gnu-nav a:last-child:after {
+    content: '';
+    padding: 0;
+}
+
+header nav.gnu-nav a:first-child:after {
+    content: '';
+}
+
+header nav.gnu-nav a.join-fsf {
+    text-align: center;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 5px 18px 2px 18px;
+    background: #817F7F;
+    color: white;
+    text-decoration: none;
+}
+
+header nav.gnu-nav a.join-fsf:hover {
+    background: #525151;
+}
+
+header .container {
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+    position: relative;
+    overflow: hidden;
+}
+
+header .logo {
+    overflow: hidden;
+    text-align: center;
+    z-index: 1;
+}
+
+header .logo img {
+    max-height: 6.25em;
+    vertical-align: top;
+}
+
+header p {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 47.5em;
+    font-weight: 300;
+    font-size: 1.2em;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header a.learn-more {
+    color: rgb(240, 255, 135);
+    text-decoration: none;
+}
+
+header a.learn-more:hover {
+    color: rgb(240, 255, 135);
+    text-decoration: none;
+}
+
+/*
+ * Footer
+ */
+
+.footer {
+    border-top: 4px solid #333;
+    padding-top: 15px;
+    color: #888;
+    font-size: 80%;
+}
+
+.footer-text {
+    display: inline-block;
+}
+
+.footer a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: rgb(204, 99, 99);
+}
+
+/* Begin of Responsiveness instructions */
+
+@media screen and (max-width: 999px) {
+    .container {
+        width: 90%;
+        padding: 40px 5%;
+    }
+    header .container {
+        padding-bottom: 0;
+    }
+    header h2,
+    header p {
+        max-width: 100%;
+    }
+    header {
+        left: 0;
+        position: relative;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    body {
+        font-size: 1em;
+    }
+    header .container {
+        text-align: center;
+        padding-top: 0;
+    }
+    header .logo {
+        text-align: center;
+    }
+    header .logo h1,
+    header .logo img {
+        float: none;
+    }
+    header .logo h1 {
+        display: block;
+        font-size: 3em;
+        line-height: 2em;
+        margin-left: 5px;
+    }
+    header h2 {
+        margin-top: 10px;
+        margin-bottom: 30px;
+        font-size: 1.8em;
+    }
+    header nav {
+        display: none;
+        padding: 0;
+    }
+    header nav a {
+        padding: 10px;
+        display: block;
+        text-align: left;
+        border-top: 1px solid #999;
+        font-size: 1.2em;
+        font-weight: 400;
+    }
+    header nav.gnu-nav a {
+        border-color: #ccc;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    header .links li {
+        float: none;
+        width: auto;
+        padding: 5px;
+    }
+    header,
+    header {
+        text-align: center;
+        margin: 0;
+        width: auto;
+    }
+}
