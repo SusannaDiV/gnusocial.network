@@ -7,7 +7,7 @@
 </div>  
 <div id="action-buttons">
   <a class="button primary big" href="https://notabug.org/diogo/gnu-social/src/nightly/INSTALL.md">{{ i18n "install-button" }}</a> 
-  <a class="button outline big" href="#join">{{ i18n "join-button" }}</a>
+  <a class="button outline big" href="{{ .Params.url | absLangURL }}docs/try">{{ i18n "join-button" }}</a>
 </div>
 <div id="main">
   <div class="row gutters text-center">
@@ -46,7 +46,7 @@
         <div class="paragraph" id="join">
           <h3>{{ i18n "faq-where" }}</h3>
           <p>{{ i18n "faq-instances" }}</p>
-          <p><a href="{{ .Params.url | absLangURL }}/docs/try">{{ i18n "click-here" }}</a>{{ i18n "faq-join" }}</p>
+          <p><a href="{{ .Params.url | absLangURL }}docs/try">{{ i18n "click-here" }}</a>{{ i18n "faq-join" }}</p>
           <strong>{{ i18n "faq-disclaimer" }}</strong><i>{{ i18n "faq-disclaimer-content" }}</i>
         </div>
         <br>
@@ -71,9 +71,9 @@
       </div>
       <div class="col col-5 item">
         <h2>{{ i18n "news" }}</h2>
-        <p> <a href="{{ .Params.url  | absLangURL }}/news/">{{ i18n "click-here" }}</a>{{ i18n "news-list" }}
+        <p> <a href="{{ .Params.url  | absLangURL }}news/">{{ i18n "click-here" }}</a>{{ i18n "news-list" }}
 	      <ul id="posts">
-	        {{ range first 4 .Paginator.Pages.ByDate.Reverse }} {{ partial "page-summary" . }} {{ end }}
+          {{ range (.Paginate (where .Pages.ByDate.Reverse "Type" "news") 4).Pages }} {{ partial "page-summary" . }} {{ end }}
         </ul>
       </div>
     </div>

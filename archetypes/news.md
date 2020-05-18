@@ -2,7 +2,7 @@
 title = ""
 description = ""
 tags = []
-categories = []
+categories = ["news"]
 date = {{ .Date }}
 draft = false
 author = ""

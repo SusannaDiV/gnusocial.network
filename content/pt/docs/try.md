@@ -1,6 +1,6 @@
 +++
 title = "Experimenta o GNU social"
-description = "Up and running in under a minute"
+description = "Junta-te a uma das várias instâncias GNU social públicas que já existem!"
 draft = false
 date = "2020-03-02T21:56:55+01:00"
 bref = "Por favor, note que a equipa de programadores do GNU social não tem qualquer responsabilidade pela operação ou conteúdo dos sítios que executam este programa. Eles estão aqui listados apenas como um serviço à comunidade"
@@ -19,29 +19,37 @@ bref = "Por favor, note que a equipa de programadores do GNU social não tem qua
       </tr>
     </thead>
     <tbody>
-      <tr>
-        <td><a href="https://gnusocial.net/main/public">gnusocial.net</td>
-        <td>DE</td>
-      </tr>
-      <tr>
-        <td><a href="https://loadaverage.org/main/public">LoadAverage</td>
-        <td>US</td>
-      </tr>
-      <tr>
-        <td><a href="https://gnusocial.cc/main/all">gnusocial.cc</td>
-        <td>FR</td>
-      </tr>
-      <tr>
-        <td><a href="https://social.thefreaks.club/main/all">social.thefreaks.club</td>
-        <td>US</td>
-      </tr>
-      <tr>
-        <td><a href="https://kwat.chat/main/public">kwat.chat</td>
-        <td>CA</td>
-      </tr>
-      <tr>
-        <td><a href="https://gnusocial.hatthieves.es/index.php/main/all">gnusocial.hatthieves.es</td>
-        <td>ES</td>
-      </tr>
+    {{< php_code >}}
+        <?php
+        $query = urlencode('
+        {
+          nodes(platform: "gnusocial") {
+            openSignups
+            name
+            host
+            countryCode
+          }
+        }
+        ');
+        $query_result = json_decode(file_get_contents("https://the-federation.info/graphql?query={$query}"), true);
+        $query_result = $query_result['data']['nodes'];
+        // Filter out instances with closed signups
+        $nodes = array_filter($query_result, function ($node) {
+            return $node['openSignups'];
+        });
+        // garbage collect
+        unset($query_result);
+        ?>
+        <?php foreach ($nodes as $node): ?>
+        <tr>
+            <td>
+                <a href="https://<?php echo $node['host']; ?>"><?php echo $node['name']; ?></a>
+            </td>
+            <td>
+                <?php echo $node['countryCode']; ?>
+            </td>
+        </tr>
+        <?php endforeach; ?>
+    {{< /php_code >}}
     </tbody>
   </table>

@@ -1,29 +1,44 @@
 baseURL = "/"
-languageCode = "en-us"
+languageCode = "en-gb"
 title = "GNU social"
-description = "GNU social's new landing page - with news"
-author = "Susanna Di Vita"
+description = "GNU social software landing page"
+author = "Susanna Di Vita et al"
 Paginate = 4
 
 DefaultContentLanguage = "en"
 [languages]
-	[languages.en]
-		title = "GNU social - the free/libre social networking platform"
-		languagename = "English"
-		contentDir = "content/en"
-		weight = 1
-	[languages.es]
-		title = "GNU social - una red social, federada y libre"
-		languagename = "Espanol"
-		contentDir = "content/es"
-		weight = 2
-	[languages.gl]
-		title = "GNU social - plataforma de comunicación social feita con software libre"
-		languagename = "Galego"
-		contentDir = "content/gl"
-		weight = 3
-	[languages.pt]
-		title = "GNU social - uma plataforma para a rede livre"
-		languagename = "Portugues"
-		contentDir = "content/pt"
-		weight = 4
+  [languages.en]
+    title = "GNU social - a free/libre social networking platform"
+    languagename = "English"
+    contentDir = "content/en"
+    weight = 1
+  [languages.pt]
+    title = "GNU social - uma plataforma livre e gratuita para redes sociais"
+    languagename = "Português"
+    contentDir = "content/pt"
+    weight = 2
+  [languages.es]
+    title = "GNU social - una red social, federada y libre"
+    languagename = "Espanol"
+    contentDir = "content/es"
+    weight = 3
+  [languages.gl]
+    title = "GNU social - plataforma de comunicación social feita con software libre"
+    languagename = "Galego"
+    contentDir = "content/gl"
+    weight = 4
+  [languages.it]
+    title = "GNU social - piattaforma di comunicazione sociale realizzata con software libero"
+    languagename = "Italiano"
+    contentDir = "content/it"
+    weight = 5
+
+[mediaTypes]
+  [mediaTypes."application/x-php"]
+  suffixes = ["php"]
+
+[outputFormats]
+  [outputFormats.PHP]
+    mediaType = "application/x-php"
+    isHTML = true
+    baseName = "index"
