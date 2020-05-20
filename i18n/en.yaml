@@ -1,5 +1,5 @@
 - id: title
-  translation: "The free/libre software social networking platform"
+  translation: "A free/libre software social networking platform"
 - id: description
   translation: "GNU social connects you to a free network of thousands of communities that discuss daily on a variety of topics, each being part of the whole."
 - id: install-button
@@ -113,7 +113,7 @@
   translation: "with"  
   
 - id: gnu-news-list-description
-  translation: "Our vision, news and ideas, and whatever feels important."
+  translation: "Archive"
   
 - id: previous
   translation: "Previous"
