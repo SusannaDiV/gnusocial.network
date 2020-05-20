@@ -91,7 +91,7 @@
 - id: merchandising
   translation: "Merchandising"
 - id: t-shirt
-  translation: "Compra la tua personale t-shirt GNU social a "
+  translation: "Compra la tua t-shirt GNU social a "
 - id: statusnet
   translation: "GNU social è una continuazione del progetto StatusNet. È un software di comunicazione sociale per comunicazioni pubbliche e private. È ampiamente supportato e ha una vasta base di utenti tra cui la Free Software Foundation."
 - id: newsletter
@@ -106,9 +106,9 @@
 - id: follow
   translation: "Seguimi su GNU social: "
 - id: license
-  translation: "Licenza"
+  translation: "licenza"
 - id: licensed-under
-  translation: "Questo sito esiste sotto alla licenza "
+  translation: "Questo sito esiste sotto alla "
 - id: with
   translation: "con"  
   
