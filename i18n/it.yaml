@@ -1,133 +1,136 @@
 - id: title
-  translation: "Uma plataforma gratuita e livre para redes sociais"
+  translation: "Una piattaforma social network totalmente gratuita"
 - id: description
-  translation: "O GNU social conecta-te a uma rede gratuita de milhares de comunidades que discutem diariamente sobre uma variedade de tópicos, cada parte constituindo um todo."
+  translation: "GNU social ti collega a una rete libera di migliaia di comunità che discutono quotidianamente su una moltitudine di argomenti, ognuno dei quali facente parte di un'unica piattaforma."
 - id: install-button
-  translation: "Instalar"
-- id: join-button
-  translation: "Experimentar"
-- id: versatile
-  translation: "Versátil"
-- id: versatile-description
-  translation: "O GNU social suporta modos de utilizador indivídual bem como de comunidade, podendo ser usado num ambiente de intranet ou como parte da Rede Livre mais ampla."
+  translation: "Installa"
+- id: join-button  
+  translation: "Unisciti"
+- id: versatile  
+  translation: "Versatile"
+- id: versatile-description 
+  translation: "GNU social supporta sia la modalità utente singolo che la community e può essere utilizzata in un ambiente intranet o come parte della più ampia rete gratuita."
 - id: plug-and-play
-  translation: "Plug and Play"
+  translation: "Plug & Play"
 - id: plug-and-play-description
-  translation: "Como o GNU social é mínimo e gratuito, ele pode ser executado virtualmente em qualquer lugar onde seja possível executar um CMS comum, como o WordPress ou o Drupal. JavaScript não é requerido."
+  translation: "Poiché GNU social è minimale e gratuito, funziona praticamente ovunque sia possibile eseguire un comune software web, come WordPress o Drupal. JavaScript è facoltativo."
 - id: privacy-focused
-  translation: "Privacidade respeitada"
+  translation: "Focalizzato sulla privacy"
 - id: privacy-focused-description
-  translation: "O GNU social faz parte do projeto GNU, é um software 100% gratuito, sem recursos maliciosos ou spyware."
+  translation: "GNU social fa parte del progetto GNU, è un software gratuito al 100%, senza funzionalità dannose o spyware."
 - id: stable
-  translation: "Estável"
+  translation: "Stabile"
 - id: stable-description
-  translation: "O GNU social tem sido usado em ambientes de produção há mais de dez anos."
+  translation: "GNU social è stato utilizzato in ambienti di produzione per oltre dieci anni."
 - id: faq
   translation: "FAQ"
 - id: faq-where
-  translation: "Como é que me posso juntar ao GNU social?"
+  translation: "Dove posso unirmi a GNU social?"
 - id: faq-instances
-  translation: "Já existem muitas instâncias GNU social disponíveis online!"
+  translation: "Al momento ci sono molti tipi di istanze server di GNU social online!"
 - id: faq-join
-  translation: " para veres uma lista de instâncias GNU social populares às quais te podes juntar!"
+  translation: " per vedere una lista di siti GNU social popolari a cui unirti!"
 - id: faq-disclaimer
-  translation: "Observação: "
+  translation: "Attenzione: "
 - id: faq-disclaimer-content
-  translation: "Por favor, note que a equipa de programadores do GNU social não tem qualquer responsabilidade pela operação ou conteúdo dos sítios que executam este programa."
+  translation: "Si prega di notare che il team di sviluppo di GNU social non è responsabile per il funzionamento o il contenuto dei siti che eseguono il suo software."
 - id: faq-who
-  translation: "Quem desenvolve o GNU social?"
+  translation: "Chi sta dietro a GNU social?"
 - id: faq-current
-  translation: "A equipa atual de desenvolvimento é liderada por "
+  translation: "L'attuale team di sviluppo è guidato da "
 - id: faq-list
-  translation: " Uma listagem contendo todos os programadores atuais e outros colaboradores encontra-se disponível "
+  translation: " È disponibile un elenco contenente gli sviluppatori attuali e altri collaboratori "
 - id: faq-founders
-  translation: "Os fundadores do projeto do GNU social foram "
+  translation: "I fondatori del progetto GNU social sono "
 - id: news
-  translation: "Noticias"
+  translation: "Notizie"
 - id: news-list
-  translation: " para ver todas as notícias sobre o GNU social!"
+  translation: " per vedere una lista completa delle notizie di GNU social!"
 - id: chat
-  translation: "Contactar"
+  translation: "Chat"
 - id: chat-discuss
-  translation: "Podes colocar questões e conversão sobre o GNU social no nosso canal IRC"
+  translation: "Discuti il progetto sul nostro canale IRC"
 - id: chat-contribute
-  translation: "Contribui com código, reporta bugs e pede por funcionalidade no nosso "
+  translation: "Contribuisci al codice, reporta bug e richiedi nuove feature sul nostro "
 - id: chat-student
-  translation: "Se fores um estudante podes também candidatar-te ao "
+  translation: "Se sei uno studente universitario puoi anche iscriverti a "
 - id: click-here
-  translation: "Clica aqui"
+  translation: "Clicca qui"
 - id: on-irc
-  translation: " no irc.freenode.net"
+  translation: " su irc.freenode.net"
 - id: repository
-  translation: "repositório"
+  translation: "repository"
 - id: and
   translation: "e"
-
+- id: here
+  translation: "qui"
+  
 - id: about-gnu
-  translation: "Sobre a GNU"
+  translation: "Su GNU"
 - id: philosophy
   translation: "Filosofia"
 - id: licenses
-  translation: "Licenças"
+  translation: "Licenze"
 - id: education
-  translation: "Educação"
+  translation: "Educazione"
 - id: software
   translation: "Software"
 - id: documentation
-  translation: "Documentação"
+  translation: "Documentazione"
 - id: help-gnu
-  translation: "Ajudar a GNU"
+  translation: "Aiuta GNU"
 - id: join-fsf
-  translation: "JUNTA-TE À FSF"
-
+  translation: "UNISCITI A FSF"  
+    
 - id: support
-  translation: "Apoia o Projecto"
+  translation: "Supporta il progetto"
 - id: donate
-  translation: "Doa"
+  translation: "Dona"
 - id: main-dev
-  translation: " ao programador principal, "
+  translation: " al lead developer del progetto,"
 - id: merchandising
   translation: "Merchandising"
 - id: t-shirt
-  translation: "Compra a tua própria t-shirt do GNU social na "
+  translation: "Compra la tua personale t-shirt GNU social a "
 - id: statusnet
-  translation: "O GNU social é uma continuação do projeto StatusNet. É um programa de comunicação social para comunicações públicas e privadas. É amplamente suportado e possui uma grande base de utilizadores, incluindo a Free Software Foundation."
+  translation: "GNU social è una continuazione del progetto StatusNet. È un software di comunicazione sociale per comunicazioni pubbliche e private. È ampiamente supportato e ha una vasta base di utenti tra cui la Free Software Foundation."
 - id: newsletter
-  translation: "Subscreve-te à nossa newsletter mensal, a  "
+  translation: "Iscriviti alla nostra newsletter mensile, la "
 - id: mission
-  translation: "Nossa missão é preservar, proteger e promover a liberdade de usar, estudar, copiar, modificar e redistribuir software de computador e defender os direitos dos utilizadores de Software Livre."
+  translation: "La nostra missione è preservare, proteggere e promuovere la libertà di usare, studiare, copiare, modificare e
+  ridistribuire software e difendere i diritti degli utenti del software libero."
 - id: mantained
-  translation: "Mantido"
+  translation: "Mantenuto"
 - id: by
-  translation: "por"
+  translation: "da"
 - id: follow
-  translation: "Segue-me no GNU social:  "
+  translation: "Seguimi su GNU social: "
 - id: license
-  translation: "licença"
+  translation: "Licenza"
 - id: licensed-under
-  translation: "O conteúdo deste sítio é partilhado segundo a "
+  translation: "Questo sito esiste sotto alla licenza "
 - id: with
-  translation: "via"
-
+  translation: "con"  
+  
 - id: gnu-news-list-description
-  translation: "Arquivo"
-
+  translation: "Archivio"
+  
 - id: previous
-  translation: "Anterior"
+  translation: "Precedente"
 - id: next
-  translation: "Próximo"
+  translation: "Successiva"
 - id: page
-  translation: "Página"
+  translation: "Pagina"
 - id: of
-  translation: "de"
-
+  translation: "di"
+  
 - id: minutes
-  translation: "minutos"
-- id: related-content
-  translation: "Conteúdo relacionado"
+  translation: "minuti"
+- id: relevant-content
+  translation: "Potrebbe interessarti"
 - id: published
-  translation: "Publicado"
+  translation: "Pubblicato il"
 - id: using
   translation: "usando"
 - id: words
-  translation: "palavras"
+  translation: "parole"
