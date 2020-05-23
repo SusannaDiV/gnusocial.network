@@ -203,7 +203,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: auto;
     font-size: 21px;
     line-height: 32px;
-    color: #999;
+    color: rgba(255, 255, 255, 0.774);
     margin-top: 28px;
     padding-top: 28px;
     margin-bottom: 0;
@@ -754,7 +754,7 @@ body.page-account #hero {
 
 #posts time {
   font-size: 12px;
-  color: #999; }
+  color: rgb(255, 255, 255); }
 
 #post-box {
   max-width: 740px;

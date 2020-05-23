@@ -129,7 +129,7 @@ body {
 body {
   font-family: Lato, Arial, sans-serif;
   color: rgb(192, 187, 187);
-  background-color: #0d0d0e; }
+  background-color: #1e1e2b; }
 
 a {
   color: #f03c69; }
@@ -283,7 +283,7 @@ blockquote {
   font-size: 110%;
   border-left: 4px solid rgba(0, 0, 0, 0.1);
   font-style: italic;
-  color: #999; }
+  color: rgb(235, 225, 225); }
   blockquote p {
     margin-bottom: .5rem; }
 
@@ -1746,7 +1746,7 @@ button:hover,
   a:visited {
     text-decoration: underline; }
   pre, blockquote {
-    border: 1px solid #999;
+    border: 1px solid rgb(235, 225, 225);
     page-break-inside: avoid; }
   p, h2, h3 {
     orphans: 3;

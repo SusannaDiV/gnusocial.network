@@ -16,28 +16,28 @@
         <img alt="Versatile" height="48" src="{{ "/img/gnu/1.1.png" | relURL }}" width="48">
       </figure>
       <h3>{{ i18n "versatile" }}</h3>
-      <p>{{ i18n "versatile-description" }}</p>
+      <p style="text-align:left">{{ i18n "versatile-description" }}</p>
     </div>
     <div class="col col-3 item">
       <figure>
         <img alt="Plug and Play" height="48" src="{{ "/img/gnu/3.1.png" | relURL }}" width="48">
       </figure>
       <h3>{{ i18n "plug-and-play" }}</h3>
-      <p>{{ i18n "plug-and-play-description" }}</p>
+      <p style="text-align:left">{{ i18n "plug-and-play-description" }}</p>
     </div>
     <div class="col col-3 item">
       <figure>
         <img alt="Privacy focused" height="48" src="{{ "/img/gnu/4.1.png" | relURL }}" width="48">
       </figure>
       <h3>{{ i18n "privacy-focused" }}</h3>
-      <p>{{ i18n "privacy-focused-description" }}</p>
+      <p style="text-align:left">{{ i18n "privacy-focused-description" }}</p>
     </div>
     <div class="col col-3 item">
       <figure>
         <img alt="Stable" height="48" src="{{ "/img/gnu/5.1.png" | relURL }}" width="48">
       </figure>
       <h3>{{ i18n "stable" }}</h3>
-      <p>{{ i18n "stable-description" }}</p>
+      <p style="text-align:left">{{ i18n "stable-description" }}</p>
     </div>
   </div>
   <div class="row gutters text-center">
@@ -45,28 +45,34 @@
       <h2>{{ i18n "faq" }}</h2>
         <div class="paragraph" id="join">
           <h3>{{ i18n "faq-where" }}</h3>
-          <p>{{ i18n "faq-instances" }}</p>
-          <p><a href="{{ .Params.url | absLangURL }}docs/try">{{ i18n "click-here" }}</a>{{ i18n "faq-join" }}</p>
-          <strong>{{ i18n "faq-disclaimer" }}</strong><i>{{ i18n "faq-disclaimer-content" }}</i>
+          <div style="text-align:justify">
+            <p>{{ i18n "faq-instances" }}</p>
+            <p><a href="{{ .Params.url | absLangURL }}docs/try">{{ i18n "click-here" }}</a>{{ i18n "faq-join" }}</p>
+            <strong>{{ i18n "faq-disclaimer" }}</strong><i>{{ i18n "faq-disclaimer-content" }}</i>
+          </div>
         </div>
         <br>
         <div class="paragraph">
           <h3>{{ i18n "faq-who" }}</h3>
-          <p>{{ i18n "faq-current" }}<a href="https://www.diogo.site/">Diogo Cordeiro</a>.</p> <p>{{ i18n "faq-list" }}
-            <a href="https://notabug.org/diogo/gnu-social/src/nightly/CREDITS.md">{{ i18n "here" }}</a>.</p>
-                {{ i18n "faq-founders" }}<a href="https://mat.tl/">Matt Lee</a>,
-                <a href="https://en.wikipedia.org/wiki/Evan_Prodromou">Evan Prodromou</a> {{ i18n "and" }}
-                <a href="http://mmn-o.se">Mikael Nordfeldth</a>.
-          </p>
+          <div style="text-align:justify">
+            <p>{{ i18n "faq-current" }}<a href="https://www.diogo.site/">Diogo Cordeiro</a>.</p> <p>{{ i18n "faq-list" }}
+              <a href="https://notabug.org/diogo/gnu-social/src/nightly/CREDITS.md">{{ i18n "here" }}</a>.</p>
+                  {{ i18n "faq-founders" }}<a href="https://mat.tl/">Matt Lee</a>,
+                  <a href="https://en.wikipedia.org/wiki/Evan_Prodromou">Evan Prodromou</a> {{ i18n "and" }}
+                  <a href="http://mmn-o.se">Mikael Nordfeldth</a>.
+            </p>
+          </div>
           <h2>{{ i18n "chat" }}</h2>
-          <p>{{ i18n "chat-discuss" }} <a
-              href="https://webchat.freenode.net/?channels=#social">#social</a>{{ i18n "on-irc" }}</p>
-          <p>{{ i18n "chat-contribute" }}<a
-              href="https://notabug.org/diogo/gnu-social">{{ i18n "repository" }}</a>.
-          </p>
-          <p>{{ i18n "chat-student" }}<a
-              href="https://www.diogo.site/projects/GNU-social/soc">GNU social's Summer of Code</a>.
-          </p> 
+          <div style="text-align:justify">
+            <p>{{ i18n "chat-discuss" }} <a
+                href="https://webchat.freenode.net/?channels=#social">#social</a>{{ i18n "on-irc" }}</p>
+            <p>{{ i18n "chat-contribute" }}<a
+                href="https://notabug.org/diogo/gnu-social">{{ i18n "repository" }}</a>.
+            </p>
+            <p>{{ i18n "chat-student" }}<a
+                href="https://www.diogo.site/projects/GNU-social/soc">GNU social's Summer of Code</a>.
+            </p> 
+          </div>
         </div>
       </div>
       <div class="col col-5 item">

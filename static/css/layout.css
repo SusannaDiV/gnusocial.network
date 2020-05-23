@@ -25,7 +25,7 @@ GNU General Public License for more details. */
 ::-moz-selection,
 ::selection {
     background: rgba(255, 255, 0, .3);
-    color: #000;
+    color: rgba(0, 0, 0, 0.226);
 }
 
 :after,
@@ -60,8 +60,8 @@ ol {
  */
 
 header nav {
-    background: #000;
-    border-bottom: 1px solid #000;
+    background: rgba(0, 0, 0, 0.432);
+    border-bottom: 1px solid #15151f0e;
     padding: 8px;
     margin-bottom: 20px;
     text-align: center;
@@ -81,7 +81,7 @@ header nav a:hover {
 
 header nav.gnu-nav {
     margin: 0;
-    background: #000000;
+    background: #15151fa6;
 }
 
 header nav.gnu-nav .gnu-logo {
